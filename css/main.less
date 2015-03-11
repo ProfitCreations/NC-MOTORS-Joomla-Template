@@ -1,0 +1,94 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*
+    Imports
+    */
+// iHover
+@import "iHover.css";
+// Bootstrap
+// @import "bootstrap.min.css";
+// @import "ripples.min.css";
+// @import "material-wfont.min.css";
+// Sprite
+// @import "sprite.less";
+
+@import "elements.less";
+
+// Slick.js
+@import "slick-theme.css";
+@import "slick.css";
+// Animate.css
+@import "animate.css";
+
+@import "variables.less";
+
+// Media queries
+@import "1.less";
+@import "2.less";
+@import "3.less";
+@import "4.less";
+// jQuery-flipster
+@import "jquery.flipster.min.css";
+// Full with Modal
+@import "bootstrap-modal-carousel.css";
+// SweetAlert
+@import "sweet-alert.css";
+
+/*
+    Custom
+    */
+    .alert-fixed-bottom{
+        position: fixed;
+        bottom: 50px;
+        z-index: 99999;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+@brand-primary: darken(#428bca, 6.5%); // #337ab7
+
+.shadow-z-2 {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.23), 0 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+.over-shadow:hover{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.23), 0 3px 10px rgba(0, 0, 0, 0.16);
+    .transition-duration(0.5s);
+}
+.title{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.nl{
+    background-image: url('../img/flags/Netherlands-flat-icon-klein.png');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 13px;
+    margin: 5px;
+}
+.pt{
+    background-image: url('../img/flags/Portugal-flat-icon-klein.png');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 13px;
+    margin: 5px;
+}
+
+/*
+    btn-taal
+    */
+    .btn-taal{
+        position: relative;
+        padding: 0px;
+        border-radius: 50%;
+        margin: 10px 1px;
+        cursor: pointer;
+        border-radius: 2px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgba(255,255,255,.84);
+        transition: box-shadow .28s cubic-bezier(.4,0,.2,1);
+        outline: none!important;
+    }

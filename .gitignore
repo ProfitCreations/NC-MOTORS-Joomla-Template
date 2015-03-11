@@ -1,0 +1,12 @@
+.phpintel
+bower_components
+dist
+images/**/*
+img/**/*
+node_modules
+php-includes
+Plugins
+test
+gulpfile.js.txt
+nc-motors.sublime-project
+old.index.php
